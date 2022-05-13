@@ -1,0 +1,44 @@
+*{
+    size: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+.topbar-bg{
+    background: gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.topbar-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.topbar-items img{
+    border-radius: 25px;
+}
+
+.item{
+    background: lemonchiffon;
+    padding: 10px;
+    border-radius: 20px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.item:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    display: grid;
+    border: 2px red solid;
+}
+
+.content-item{
+    
+}
